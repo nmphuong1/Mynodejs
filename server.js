@@ -11,7 +11,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
   res.send(
-    `<body style='background-color:#283E5B'><h1 style='color: orange;text-align:center'>Hello AWS chuyên nghiệp 2 ${os.hostname()}</h1></body>`
+    `<body style='background-color:#283E5B'><h1 style='color: orange;text-align:center'>HELLO CÁC CHIẾN MÃ WEBAPP ĐÃ CHẠY RỒI NHA, THÔI VỀ ĐÂY. ${os.hostname()}</h1></body>`
   );
 });
 
