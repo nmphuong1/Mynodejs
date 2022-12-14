@@ -3,7 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - echo Connecting to Amazon ECR1...
+      - echo Connecting to Amazon ECR...
       - aws --version
       #- $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
       - aws ecr get-login-password --region ap-southeast-2 | docker login --username AWS --password-stdin 835776587202.dkr.ecr.ap-southeast-2.amazonaws.com
